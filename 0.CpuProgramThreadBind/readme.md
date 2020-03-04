@@ -1,4 +1,4 @@
-** 编译方法：　g++ test.cpp -lpthread
+**编译方法：　g++ test.cpp -lpthread
 
 <br>
 
