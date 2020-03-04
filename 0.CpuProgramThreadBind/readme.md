@@ -1,8 +1,8 @@
-**编译方法：　g++ test.cpp -lpthread
+** 编译方法：　g++ test.cpp -lpthread
 
 <br>
 
-### 进程绑定cpu逻辑核  
+### 进程绑定cpu逻辑核 程序 
 ```c
 sched_setaffinity(0, sizeof(mask), &mask)
 ```
@@ -10,7 +10,7 @@ sched_setaffinity(0, sizeof(mask), &mask)
 
 <br>
 
-### 线程绑定cpu逻辑核
+### 线程绑定cpu逻辑核　程序
 ```c
 pthread_setaffinity_np(thread, sizeof(cpu_set_t), &cpuset);
 ```
